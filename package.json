@@ -1,0 +1,23 @@
+{
+  "name": "esm-cjs-webpack-experiments",
+  "version": "1.0.0",
+  "description": "Simple ESM and CJS webpack experiments based off of https://hackernoon.com/node-js-tc-39-and-modules-a1118aecf95e#.3508t5r4s",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webpack-academy/esm-cjs-webpack-experiments.git"
+  },
+  "author": "Sean Larkin <sean.larkin@cuw.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webpack-academy/esm-cjs-webpack-experiments/issues"
+  },
+  "homepage": "https://github.com/webpack-academy/esm-cjs-webpack-experiments#readme",
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.25"
+  }
+}
